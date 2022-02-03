@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="9" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-13T20:45:43 IST" name="TestNgIntro" finished-at="2021-12-13T20:45:44 IST" duration-ms="263">
+    <groups>
+      <group name="Smoke">
+        <method signature="BasicIntro.Demobasics()[pri:0, instance:Test.BasicIntro@5ba3f27a]" name="Demobasics" class="Test.BasicIntro"/>
+        <method signature="Demo.test()[pri:0, instance:Test.Demo@485966cc]" name="test" class="Test.Demo"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2021-12-13T20:45:43 IST" name="Test1.0" finished-at="2021-12-13T20:45:43 IST" duration-ms="69">
+      <class name="Test.Demo1">
+        <test-method is-config="true" signature="test3()[pri:0, instance:Test.Demo1@5403f35f]" started-at="2021-12-13T20:45:43 IST" name="test3" finished-at="2021-12-13T20:45:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:Test.Demo1@5403f35f]" started-at="2021-12-13T20:45:43 IST" name="test" data-provider="getData" finished-at="2021-12-13T20:45:43 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:Test.Demo1@5403f35f]" started-at="2021-12-13T20:45:43 IST" name="test" data-provider="getData" finished-at="2021-12-13T20:45:43 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:Test.Demo1@5403f35f]" started-at="2021-12-13T20:45:43 IST" name="test" data-provider="getData" finished-at="2021-12-13T20:45:43 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- Test.Demo1 -->
+    </test> <!-- Test1.0 -->
+    <test started-at="2021-12-13T20:45:44 IST" name="Test" finished-at="2021-12-13T20:45:44 IST" duration-ms="22">
+      <class name="Test.BasicIntro">
+        <test-method signature="Demo1()[pri:0, instance:Test.BasicIntro@5ba3f27a]" started-at="2021-12-13T20:45:44 IST" name="Demo1" finished-at="2021-12-13T20:45:44 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo1 -->
+        <test-method signature="Demobasics()[pri:0, instance:Test.BasicIntro@5ba3f27a]" started-at="2021-12-13T20:45:44 IST" name="Demobasics" finished-at="2021-12-13T20:45:44 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demobasics -->
+        <test-method is-config="true" signature="Demo1()[pri:0, instance:Test.BasicIntro@5ba3f27a]" started-at="2021-12-13T20:45:44 IST" name="Demo1" finished-at="2021-12-13T20:45:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo1 -->
+      </class> <!-- Test.BasicIntro -->
+    </test> <!-- Test -->
+    <test started-at="2021-12-13T20:45:44 IST" name="Test.2.0" finished-at="2021-12-13T20:45:44 IST" duration-ms="19">
+      <class name="Test.BasicIntro">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Test.BasicIntro@5ba3f27a]" started-at="2021-12-13T20:45:43 IST" name="beforeTest" finished-at="2021-12-13T20:45:43 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+      </class> <!-- Test.BasicIntro -->
+      <class name="Test.Demo">
+        <test-method is-config="true" signature="befroeMethod()[pri:0, instance:Test.Demo@485966cc]" started-at="2021-12-13T20:45:44 IST" name="befroeMethod" finished-at="2021-12-13T20:45:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befroeMethod -->
+        <test-method signature="test()[pri:0, instance:Test.Demo@485966cc]" started-at="2021-12-13T20:45:44 IST" name="test" finished-at="2021-12-13T20:45:44 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Test.Demo@485966cc]" started-at="2021-12-13T20:45:44 IST" name="afterMethod" finished-at="2021-12-13T20:45:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Test.Demo -->
+      <class name="Test.Demo1">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Test.Demo1@5403f35f]" started-at="2021-12-13T20:45:44 IST" name="afterSuite" finished-at="2021-12-13T20:45:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- Test.Demo1 -->
+    </test> <!-- Test.2.0 -->
+  </suite> <!-- TestNgIntro -->
+</testng-results>
